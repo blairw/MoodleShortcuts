@@ -1,0 +1,6 @@
+MoodleBaseURL: (e.g., https://moodle.telt.unsw.edu.au)
+Courses:
+  - MoodleID: 12345
+    FullName: My Course 1
+  - MoodleID: 67890
+    FullName: My Course 2
