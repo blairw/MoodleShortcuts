@@ -4,3 +4,13 @@ Courses:
     FullName: My Course 1
   - MoodleID: 67890
     FullName: My Course 2
+Functionalities:
+  - Name: Participant List
+    URLPrefix: /user/index.php?id=
+  - Name: Gradebook Setup
+    URLPrefix: /grade/edit/tree/index.php?id=
+  - Name: Gradebook Import CSV
+    URLPrefix: /grade/import/csv/index.php?id=
+  - Name: Edit Homepage
+    URLPrefix: /course/view.php?id=
+    URLSuffix: "&notifyeditingon=1"

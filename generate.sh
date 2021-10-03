@@ -9,7 +9,7 @@ echo >> ./output/MoodleShortcuts.html
 cat ./support-javascript/vanillajs.js >> ./output/MoodleShortcuts.html
 echo >> ./output/MoodleShortcuts.html
 echo "var configData = " >> ./output/MoodleShortcuts.html
-cat ./config/config.yml | yq >> ./output/MoodleShortcuts.html
+yq eval -o=j ./config/config.yml >> ./output/MoodleShortcuts.html
 echo ";" >> ./output/MoodleShortcuts.html
 echo "</script>" >> ./output/MoodleShortcuts.html
 cat ./fragments/020.html >> ./output/MoodleShortcuts.html
