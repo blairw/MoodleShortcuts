@@ -1,9 +1,11 @@
 MoodleBaseURL: (e.g., https://moodle.telt.unsw.edu.au)
+
 Courses:
   - MoodleID: 12345
     FullName: My Course 1
   - MoodleID: 67890
     FullName: My Course 2
+
 Functionalities:
   - Name: Participant List
     URLPrefix: /user/index.php?id=
@@ -14,3 +16,15 @@ Functionalities:
   - Name: Edit Homepage
     URLPrefix: /course/view.php?id=
     URLSuffix: "&notifyeditingon=1"
+
+CourseSpecificFunctionalities:
+  12345:
+    - FunctionalityName: My Course 1 Special Page
+      FullURL: https://example.com/special/mycourse1
+    - FunctionalityName: My Course 1 Course Outline
+      FullURL: https://example.com/courseoutline/mycourse1
+  67890:
+    - FunctionalityName: My Course 2 Special Page
+      FullURL: https://example.com/special/mycourse2
+    - FunctionalityName: My Course 1 Course Outline
+      FullURL: https://example.com/courseoutline/mycourse2
