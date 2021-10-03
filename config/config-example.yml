@@ -7,13 +7,20 @@ Courses:
     FullName: My Course 2
 
 Functionalities:
-  - Name: Participant List
+  - Name:  Participant List
     URLPrefix: /user/index.php?id=
+    Icon: 👨‍🎓
   - Name: Gradebook Setup
     URLPrefix: /grade/edit/tree/index.php?id=
+    Icon: 📕
   - Name: Gradebook Import CSV
     URLPrefix: /grade/import/csv/index.php?id=
+    Icon: 🗳
+  - Name: View Homepage
+    URLPrefix: /course/view.php?id=
+    Icon: 📖
   - Name: Edit Homepage
+    Icon: ✏️
     URLPrefix: /course/view.php?id=
     URLSuffix: "&notifyeditingon=1"
 

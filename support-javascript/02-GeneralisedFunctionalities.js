@@ -4,6 +4,10 @@ function generalisedFunctionalities() {
         var preparedHtml = "";
         var preparedHtml = "<tr>";
         preparedHtml += "<td>";
+        if (vFunc["Icon"]) {
+            preparedHtml += vFunc["Icon"];
+            preparedHtml += "&nbsp;";
+        }
         preparedHtml += vFunc["Name"];
         preparedHtml += "</td>";
         $.each(configData["Courses"], function (iCourse, vCourse) {
