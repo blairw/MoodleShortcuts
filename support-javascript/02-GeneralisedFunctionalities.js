@@ -5,8 +5,9 @@ function generalisedFunctionalities() {
         var preparedHtml = "<tr>";
         preparedHtml += "<td>";
         if (vFunc["Icon"]) {
+            preparedHtml += "<span style='display: inline-block; width: 1.8rem;'>"
             preparedHtml += vFunc["Icon"];
-            preparedHtml += "&nbsp;";
+            preparedHtml += "</span>";
         }
         preparedHtml += vFunc["Name"];
         preparedHtml += "</td>";

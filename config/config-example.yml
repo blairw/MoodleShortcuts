@@ -16,13 +16,9 @@ Functionalities:
   - Name: Gradebook Import CSV
     URLPrefix: /grade/import/csv/index.php?id=
     Icon: 🗳
-  - Name: View Homepage
+  - Name: Homepage
     URLPrefix: /course/view.php?id=
     Icon: 📖
-  - Name: Edit Homepage
-    Icon: ✏️
-    URLPrefix: /course/view.php?id=
-    URLSuffix: "&notifyeditingon=1"
 
 CourseSpecificFunctionalities:
   12345:
